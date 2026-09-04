@@ -23,6 +23,7 @@ public class PolicyCategory {
     @Column(unique = true, nullable = false)
     private String name;
 
+    @Builder.Default
     @ManyToMany(mappedBy = "categories", fetch = FetchType.LAZY)
-    private Set<Policy> policies= new HashSet<>();
+    private Set<Policy> policies = new HashSet<>();
 }
