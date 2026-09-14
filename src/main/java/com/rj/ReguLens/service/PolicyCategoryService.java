@@ -2,7 +2,7 @@ package com.rj.ReguLens.service;
 
 import com.rj.ReguLens.dto.policy.PolicyCategoryCreationRequestDto;
 import com.rj.ReguLens.dto.policy.PolicyCategoryCreationResponseDto;
-import org.apache.coyote.BadRequestException;
+import com.rj.ReguLens.exception.BadRequestException;
 import org.springframework.http.ResponseEntity;
 
 public interface PolicyCategoryService {

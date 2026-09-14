@@ -1,10 +1,10 @@
 package com.rj.ReguLens.service;
 
+import com.rj.ReguLens.dto.PolicyWithPolicyVersion;
 import com.rj.ReguLens.dto.policyVersion.PolicyVersionCreationRequestDto;
 import com.rj.ReguLens.dto.policyVersion.PolicyVersionResponseDto;
 import com.rj.ReguLens.dto.policyVersion.PolicyVersionUpdationRequestDto;
-import com.rj.ReguLens.dto.PolicyWithPolicyVersion;
-import org.apache.coyote.BadRequestException;
+import com.rj.ReguLens.exception.BadRequestException;
 import org.springframework.http.ResponseEntity;
 
 import java.util.UUID;

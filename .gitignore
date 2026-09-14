@@ -31,3 +31,9 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Secrets & Local Environment Configs (NEVER COMMIT TO GITHUB) ###
+.env
+.env.local
+application-local.properties
+application-secret.properties
